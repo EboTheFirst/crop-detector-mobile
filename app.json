@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "CropDoctor AI",
-    "slug": "cropdoctor-ai",
+    "name": "Cropped AI",
+    "slug": "cropped-ai",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/app-icon.png",

@@ -8,7 +8,7 @@ import { AppConfig } from '@/types';
 export const APP_CONFIG: AppConfig = {
   // API Configuration
   // apiBaseUrl: 'http://localhost:8000', // Update this to your backend URL
-  apiBaseUrl: 'http://192.168.100.53:8000', // Update this to your backend URL
+  apiBaseUrl: 'https://crop-predict-api-k8tv.onrender.com', // Update this to your backend URL
   
   // Cache Configuration
   cacheExpirationHours: 24,
