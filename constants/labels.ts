@@ -1,0 +1,25 @@
+// constants/labels.ts
+export const readableLabels = [
+  "Cashew - Anthracnose",
+  "Cashew - Gumosis",
+  "Cashew - Healthy",
+  "Cashew - Leaf Miner",
+  "Cashew - Red Rust",
+  "Cassava - Bacterial Blight",
+  "Cassava - Brown Spot",
+  "Cassava - Green Mite",
+  "Cassava - Healthy",
+  "Cassava - Mosaic",
+  "Maize - Fall Armyworm",
+  "Maize - Grasshopper",
+  "Maize - Healthy",
+  "Maize - Leaf Beetle",
+  "Maize - Leaf Blight",
+  "Maize - Leaf Spot",
+  "Maize - Streak Virus",
+  "Tomato - Healthy",
+  "Tomato - Leaf Blight",
+  "Tomato - Leaf Curl",
+  "Tomato - Septoria Leaf Spot",
+  "Tomato - Verticillium Wilt"
+]
