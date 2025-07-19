@@ -117,7 +117,3 @@ npx expo start --android
 # Type checking
 npx tsc --noEmit
 ```
-
-## License
-
-This project is developed for the Ghana Agricultural Extension Service.
