@@ -19,9 +19,7 @@
         "foregroundImage": "./assets/images/app-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true,
-      "usesCleartextTraffic": false,
-      "networkSecurityConfig": "./network_security_config.xml"
+      "edgeToEdgeEnabled": true
     },
     "web": {
       "bundler": "metro",
