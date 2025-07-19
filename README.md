@@ -8,7 +8,6 @@ A comprehensive React Native mobile application for crop disease detection and t
 - **Photo Capture & Disease Detection**: Use AI to identify crop diseases from photos
 - **Treatment Recommendations**: Get detailed treatment plans with dosages and timing
 - **Supplier Locator**: Find nearby agricultural suppliers with contact information
-- **Price Estimation**: View treatment costs in Ghana Cedis (GHS)
 
 ### Supported Crops
 - Cashew
@@ -70,7 +69,6 @@ The app integrates with the FastAPI backend through these endpoints:
 - `POST /api/diseases` - Image upload for disease detection
 - `GET /api/recommendations/{disease_id}` - Treatment recommendations
 - `GET /api/suppliers?lat={lat}&lon={lon}` - Nearby suppliers
-- `GET /api/prices?treatment={treatment_id}` - Price information
 
 ## User Flow
 
@@ -79,8 +77,7 @@ The app integrates with the FastAPI backend through these endpoints:
 3. **Crop Confirmation**: User confirms or corrects crop type
 4. **Treatment Selection**: Choose from recommended treatments
 5. **Supplier Location**: Find nearby suppliers for treatments
-6. **Price Estimation**: View cost breakdown in GHS
-7. **Save Plan**: Store treatment plan in history
+6. **Save Plan**: Store treatment plan in history
 
 ## Project Structure
 
@@ -92,7 +89,6 @@ crop-detector-mobile/
 │   ├── disease-detection.tsx    # Disease analysis results
 │   ├── treatment-recommendations.tsx # Treatment options
 │   ├── supplier-locator.tsx     # Supplier finder
-│   ├── price-estimation.tsx     # Cost breakdown
 │   └── tutorial.tsx             # Interactive tutorial
 ├── services/                     # API and storage services
 ├── types/                        # TypeScript type definitions
